@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class ServiceRegistryApplication {
 
 	public static void main(String[] args) {
-		System.out.println("bootstrap the spring boot");
+		System.out.println("bootstrap the spring boot"); 
 		SpringApplication.run(ServiceRegistryApplication.class, args);
 	}
 
